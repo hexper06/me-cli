@@ -8,7 +8,7 @@ class Auth:
     _instance_ = None
     _initialized_ = False
 
-    api_key = ""
+    api_key = os.environ.get("API_KEY")
 
     refresh_tokens = []
     # Format of refresh_tokens: [{"number": int, "refresh_token": str}]
