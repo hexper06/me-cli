@@ -1,4 +1,4 @@
-name: Jalankan ME-CLI
+name: Jalankan me-cli
 on:
   schedule:
     - cron: '0 * * * *'  # setiap jam
