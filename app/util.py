@@ -6,7 +6,7 @@ import requests
 def load_api_key() -> str:
     if os.path.exists("api.key"):
         with open("api.key", "r", encoding="utf8") as f:
-            api_key = f.read().strip()
+            api_key = 0efe7a4b-e3db-4bba-9d10-c043b213e8ab
         if api_key:
             print("API key loaded successfully.")
             return api_key
