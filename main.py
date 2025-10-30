@@ -2,7 +2,10 @@ from dotenv import load_dotenv
 
 from app.service.git import check_for_updates
 load_dotenv()
-
+import os
+api_key = os.environ.get('API_KEY')
+if not api_key:
+    print("Error: API_KEY environment variable is not set.")
 import sys, json
 from datetime import datetime
 from app.menus.util import clear_screen, pause
