@@ -1,7 +1,9 @@
-name: Jalankan me-cli
+name: Jalankan ME-CLI
+
 on:
   schedule:
-    - cron: '0 * * * *'  # setiap jam
+    - cron: '0 * * * *'  # Menjalankan setiap jam
+  workflow_dispatch: # Memungkinkan Anda menjalankan manual dari tab Actions
 
 jobs:
   run-mecli:
