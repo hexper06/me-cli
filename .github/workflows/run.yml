@@ -1,6 +1,6 @@
 name: Jalankan ME-CLI
 on:
- workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   run-mecli:
