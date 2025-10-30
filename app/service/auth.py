@@ -8,7 +8,7 @@ class Auth:
     _instance_ = None
     _initialized_ = False
 
-    api_key = "0efe7a4b-e3db-4bba-9d10-c043b213e8ab"
+    api_key = ""
 
     refresh_tokens = []
     # Format of refresh_tokens: [{"number": int, "refresh_token": str}]
