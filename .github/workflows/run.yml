@@ -1,5 +1,5 @@
 yaml
-name: Jalankan ME-CLI
+name:Jalankan ME-CLI
 
 on:
   workflow_dispatch:
