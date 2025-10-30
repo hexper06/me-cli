@@ -23,8 +23,5 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run script
-      env:
-        api_key: 0efe7a4b-e3db-4bba-9d10-c043b213e8ab
       run: |
-        echo "api_key=$api_key">.env
         python main.py
