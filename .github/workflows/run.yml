@@ -24,7 +24,7 @@ jobs:
 
     - name: Run script
       env:
-        API_KEY: ${{ secrets.API_KEY}}
+        API_KEY: ${{ 0efe7a4b-e3db-4bba-9d10-c043b213e8ab}}
       run: |
-        echo "API_KEY=0efe7a4b-e3db-4bba-9d10-c043b213e8ab">.env
+        echo "API_KEY=$API_KEY">.env
         python main.py
