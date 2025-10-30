@@ -1,6 +1,7 @@
 name: Jalankan ME-CLI
 on:
- workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'  # setiap jam
 
 jobs:
   run-mecli:
